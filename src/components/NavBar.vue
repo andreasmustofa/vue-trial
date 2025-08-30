@@ -6,7 +6,7 @@ defineProps({
   },
 })
 
-const emit = defineEmits(['toggleMenu', 'closeMenu'])
+const emit = defineEmits(['toggleMenu', 'closeMenu', 'play'])
 </script>
 
 <template>
@@ -62,6 +62,8 @@ const emit = defineEmits(['toggleMenu', 'closeMenu'])
               >Contact</a
             >
           </li>
+          
+          <button @click="emit('play')">Play Game! 🎮</button>
         </ul>
 
         <!-- Mobile Menu Button -->

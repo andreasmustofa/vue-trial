@@ -25,7 +25,7 @@ interface Skill {
         <h2
           class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-purple-800 via-blue-700 to-cyan-800 bg-clip-text text-transparent"
         >
-          🛠️ Skills & Technologies
+          🛠️ Skills & Requirements
         </h2>
         <div
           class="w-24 sm:w-32 h-1 bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-600 mx-auto rounded-full"
